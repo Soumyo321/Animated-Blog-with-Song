@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 230px;
+    width:460px;
+    align-items: center;
+    justify-content: center;
+    color: aqua;
+    padding-left: 90px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin: 13%;
+}
+.box{
+    animation: gbox 0.5s infinite alternate;
+}
+@keyframes gbox {
+    from{
+        box-shadow: 0 0 20px 4px gold;;
+    }
+    to{
+       box-shadow:  0 0 20px 8px gold;
+    }
+}
+.p1:hover{
+    color:fuchsia;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.p2:hover{
+    color:fuchsia;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.p3:hover{
+    color:fuchsia;
+    cursor: pointer;
+    transition: 0.5s;
+}
