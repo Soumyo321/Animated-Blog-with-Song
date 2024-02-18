@@ -1,0 +1,514 @@
+body{
+    background-color: rgb(0, 0, 0);
+    height:100%;
+    width: 100%;
+}
+#navbar{
+    
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#hero{
+    padding-top: 2vw;
+    color:#fff;
+    text-transform: uppercase;
+    padding-left: 18px;
+    /* opacity: 0.6; */
+
+}
+.Designer{
+    padding-left: 5vw;
+    
+}
+.demo{
+    padding-left: 17%;
+}#btn{
+    display: flex;
+    justify-content: space-between;
+}
+.b1{
+    /* padding-left: 25vw ;
+    padding-top: 25vh; */
+    /* position: absolute; */
+    /* justify-content: space-between; */
+    /* overflow: hidden; */
+    /* position: relative; */
+    left: 12px;
+    padding-top: 12px ;
+    padding-right: 12px ;
+    padding-bottom: 12px;
+    /* padding-block: 12px; */
+    text-shadow: black;
+}
+#alignment{
+    display: inline-block;
+   
+    
+}
+
+.container{
+    border-radius: 50px;
+    width: 570px;
+    height: 230px;
+    /* visibility: hidden; */
+    position:relative; 
+
+    display :none;
+    color: #fff;
+    background-color:lemonchiffon;
+    padding-block:12px;
+    position:sticky;
+    /* padding-left: 12vw; */
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+    color:lemonchiffon ;
+    text-emphasis: none;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: large;
+    margin:0 auto;
+    top:12vh;
+    bottom: 12px;
+    text-shadow: yellowgreen;
+    text-size-adjust:unset
+     ;
+     display: inline-block;
+    text-anchor: middle;
+    /* float: left; */
+    /* position:absolute ; */
+}
+.container.container2{
+    align-items: center;
+    justify-content: space-between;
+}
+ /* #container:hover{
+     height: 23px;
+    width: 23px; 
+    background: transparent;
+    box-shadow: 0 0 20px 5px gold;
+    transition: 0.5s;
+    color: greenyellow;
+    cursor: pointer; 
+
+}  */
+.h{
+    animation: light 1.5s infinite alternate;
+}
+
+.h:hover{
+    color:gold;
+    transition: 0.9s;
+    cursor: pointer;
+}
+@keyframes light {
+    from{
+        color: greenyellow;
+    }
+    to{
+        color: gold;
+    }
+}
+.Designer{
+    animation:light1 1.5s infinite alternate ;
+    
+}
+@keyframes light1 {
+    from{
+        color: gold;
+    }
+    to{
+        text-shadow:greenyellow;
+    }
+}
+.demo{
+    color:#00fffc;
+}
+.demo:hover{
+    color:rgb(4, 213, 213);
+    text-shadow:aquamarine;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+.glow{
+    animation: glowing 0.5s infinite alternate;
+}
+@keyframes glowing {
+    from{
+        box-shadow: 0 0 20px 4px gold;;
+    }
+    to{
+       box-shadow:  0 0 20px 8px gold;
+    }
+    
+}
+/* #container2 {background-color: #00fffc;
+    /* position:relative; /* Set container position to relative */
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-left: 56vw;
+    width: auto; /* Adjust width and height as needed */
+    /* height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */ */ */
+
+/* .photo { */
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+    transition: opacity 0.5s ease; */
+
+    #container2 {
+        padding-left: 34px;
+        float: right;
+        position: sticky;
+        justify-content: left;
+        width: 278px;
+        height: 420px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin-left: 90px; /* Add margin to separate from the buttons */
+    }
+    
+    .photo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }#container2 {
+        position: relative;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin-left: 20px; /* Add margin to separate from the buttons */
+    }
+    
+    .photo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }#container2 {
+        position: relative;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin-left: 20px; /* Add margin to separate from the buttons */
+    }
+    
+    .photo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }#container2 {
+        position: relative;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin-left: 20px; /* Add margin to separate from the buttons */
+    }
+    
+    .photo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }#container2 {
+        position: relative;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin-left: 20px; /* Add margin to separate from the buttons */
+    }
+    
+    .photo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }#container2 {
+        position: relative;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin-left: 20px; /* Add margin to separate from the buttons */
+    }
+    
+    .photo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }#container2 {
+        position: relative;
+        width: 230px;
+        height: 478px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin-left: 20px; /* Add margin to separate from the buttons */
+    }
+    
+    .photo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }#container2 {
+        position: relative;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin-left: 20px; /* Add margin to separate from the buttons */
+    }
+    
+    .photo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }#container2 {
+        position: relative;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin-left: 20px; /* Add margin to separate from the buttons */
+    }
+    
+    .photo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }#container2 {
+        position: relative;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin-left: 20px; /* Add margin to separate from the buttons */
+    }
+    
+    .photo {
+        border-radius: 50px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }#container2 {
+        border-radius: 50px;
+        padding-left: 23vw;
+        padding-top: 18vw;
+        position: relative;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin-left: 20px; /* Add margin to separate from the buttons */
+    }
+    
+    .photo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+
+/* #container2{border-radius: 50px;
+    width: auto;
+    height: auto;
+   padding: 20vw ;
+    color: #fff;
+    background-color:lemonchiffon;
+    padding-block:12px;
+    position:sticky;
+    padding-left: 12vw;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    color:lemonchiffon ;
+    text-emphasis: none;
+    float: right;
+    position: relative; */
+    
+#container2:hover{
+     height: 23px;
+    width: 23px;
+    background: transparent;
+    box-shadow: 0 0 20px 5px gold;
+    transition: 0.5s;
+    color: greenyellow;
+    cursor: pointer;
+    ;
+
+}
+#container,#container2{
+    display:inline-table;
+
+}
+
+
+.b1:hover{
+    
+    background: transparent;
+    box-shadow: 0 0 20px 5px #00fffc;
+    transition: 0.6s;
+    color:yellow;
+    cursor: pointer;
+}
+.b1{
+    
+    /* margin-top: 12vh; */
+    font-size: large;
+    left: 12px;
+    /* padding-top: 14px ; */
+    padding-left: 120px;
+    padding-right: 120px ;
+    /* padding-bottom: 12px; */
+    /* padding-block: 12px; */
+    text-shadow: black;
+    /* margin: ; */
+    border-radius: 18px;
+    color:black;
+    background-color: aquamarine;
+    /* padding-left:12vw; */
+    margin: 4px;
+    /* padding-top: 23px */
+    /* padding-right:; */
+}
+.b2{
+      /* margin-top: 12vh; */
+      font-size: large;
+      /* left: 12px; */
+      /* padding-top: 14px ; */
+      padding-left: 120px;
+      padding-right: 120px ;
+      /* padding-bottom: 12px; */
+      /* padding-block: 12px; */
+      text-shadow: black;
+      /* margin: ; */
+      border-radius: 18px;
+      color:black;
+      background-color: aquamarine;
+      /* float:inline-start; */
+      /* height: 12px; */
+      /* padding-left:12vw; */
+      /* bottom: 67px; */
+      /* padding-top: 23px */
+      /* padding-right:; */
+}
+/* .photo {
+    /* width: 100%; Set width to 100% to cover the entire div */
+    /* height: 100%; Set height to 100% to cover the entire div */
+    /* border-radius: 50 px;
+    width: 590px;
+    height: 340px;
+    object-fit:fill; /* Ensure the image covers the entire space */
+.drag{
+    color:cornsilk;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.drag:hover{
+    color:fuchsia;
+
+}
+.drag{
+    animation: dragg 0.5s infinite alternate;
+}
+@keyframes dragg {
+    from{
+        color:fuchsia;
+        box-shadow:fuchsia ;
+    }
+    to{
+        color:cornsilk;
+    }
+    
+}
+.ints{
+    color:cornsilk;
+    transition: 0.5s;
+    text-decoration: none;
+    margin-right: 56px;
+    font-size: large;
+    font-weight: 100;
+
+}
+
+.ints:hover{
+    color:rgb(0, 255, 21);
+
+}
+.ints{
+    animation: in 0.5s infinite alternate;
+}
+@keyframes in {
+    from{
+        color:rgb(0, 255, 21);
+        box-shadow:rgb(0, 255, 21) ;
+    }
+    to{
+        color:cornsilk;
+    }
+    
+}
